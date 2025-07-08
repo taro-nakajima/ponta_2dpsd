@@ -1,48 +1,368 @@
-DAQ0413_Scan0301.txt  -59.9
-DAQ0413_Scan0302.txt  -59.8
-DAQ0413_Scan0303.txt  -59.7
-DAQ0413_Scan0304.txt  -59.6
-DAQ0413_Scan0305.txt  -59.5
-DAQ0413_Scan0306.txt  -59.4
-DAQ0413_Scan0307.txt  -59.3
-DAQ0413_Scan0308.txt  -59.2
-DAQ0413_Scan0309.txt  -59.1
-DAQ0413_Scan0310.txt  -59
-DAQ0413_Scan0311.txt  -58.9
-DAQ0413_Scan0312.txt  -58.8
-DAQ0413_Scan0313.txt  -58.7
-DAQ0413_Scan0314.txt  -58.6
-DAQ0413_Scan0315.txt  -58.5
-DAQ0413_Scan0316.txt  -58.4
-DAQ0413_Scan0317.txt  -58.3
-DAQ0413_Scan0318.txt  -58.2
-DAQ0413_Scan0319.txt  -58.1
-DAQ0413_Scan0320.txt  -58
-DAQ0413_Scan0321.txt  -57.9
-DAQ0413_Scan0322.txt  -57.8
-DAQ0413_Scan0323.txt  -57.7
-DAQ0413_Scan0324.txt  -57.6
-DAQ0413_Scan0325.txt  -57.5
-DAQ0413_Scan0326.txt  -57.4
-DAQ0413_Scan0327.txt  -57.3
-DAQ0413_Scan0328.txt  -57.2
-DAQ0413_Scan0329.txt  -57.1
-DAQ0413_Scan0330.txt  -57
-DAQ0413_Scan0331.txt  -56.9
-DAQ0413_Scan0332.txt  -56.8
-DAQ0413_Scan0333.txt  -56.7
-DAQ0413_Scan0334.txt  -56.6
-DAQ0413_Scan0335.txt  -56.5
-DAQ0413_Scan0336.txt  -56.4
-DAQ0413_Scan0337.txt  -56.3
-DAQ0413_Scan0338.txt  -56.2
-DAQ0413_Scan0339.txt  -56.1
-DAQ0413_Scan0340.txt  -56
-DAQ0413_Scan0341.txt  -55.9
-DAQ0413_Scan0342.txt  -55.8
-DAQ0413_Scan0343.txt  -55.7
-DAQ0413_Scan0344.txt  -55.6
-DAQ0413_Scan0345.txt  -55.5
-DAQ0413_Scan0346.txt  -55.4
-DAQ0413_Scan0347.txt  -55.3
-DAQ0413_Scan0348.txt  -55.2
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0070.txt  -51  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0071.txt  -50.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0072.txt  -50.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0073.txt  -50.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0074.txt  -50.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0075.txt  -50.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0076.txt  -50.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0077.txt  -50.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0078.txt  -50.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0079.txt  -50.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0080.txt  -50  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0081.txt  -49.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0082.txt  -49.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0083.txt  -49.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0084.txt  -49.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0085.txt  -49.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0086.txt  -49.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0087.txt  -49.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0088.txt  -49.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0089.txt  -49.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0090.txt  -49  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0091.txt  -48.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0092.txt  -48.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0093.txt  -48.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0094.txt  -48.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0095.txt  -48.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0096.txt  -48.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0097.txt  -48.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0098.txt  -48.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0099.txt  -48.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0100.txt  -48  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0101.txt  -47.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0102.txt  -47.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0103.txt  -47.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0104.txt  -47.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0105.txt  -47.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0106.txt  -47.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0107.txt  -47.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0108.txt  -47.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0109.txt  -47.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0110.txt  -47  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0111.txt  -46.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0112.txt  -46.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0113.txt  -46.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0114.txt  -46.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0115.txt  -46.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0116.txt  -46.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0117.txt  -46.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0118.txt  -46.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0119.txt  -46.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0120.txt  -46  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0121.txt  -45.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0122.txt  -45.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0123.txt  -45.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0124.txt  -45.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0125.txt  -45.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0126.txt  -45.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0127.txt  -45.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0128.txt  -45.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0129.txt  -45.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0130.txt  -45  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0131.txt  -44.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0132.txt  -44.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0133.txt  -44.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0134.txt  -44.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0135.txt  -44.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0136.txt  -44.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0137.txt  -44.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0138.txt  -44.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0139.txt  -44.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ412/01_102-q/DAQ0412_Scan0140.txt  -44  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0301.txt  -59.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0302.txt  -59.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0303.txt  -59.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0304.txt  -59.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0305.txt  -59.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0306.txt  -59.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0307.txt  -59.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0308.txt  -59.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0309.txt  -59.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0310.txt  -59  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0311.txt  -58.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0312.txt  -58.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0313.txt  -58.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0314.txt  -58.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0315.txt  -58.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0316.txt  -58.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0317.txt  -58.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0318.txt  -58.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0319.txt  -58.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0320.txt  -58  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0321.txt  -57.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0322.txt  -57.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0323.txt  -57.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0324.txt  -57.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0325.txt  -57.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0326.txt  -57.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0327.txt  -57.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0328.txt  -57.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0329.txt  -57.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0330.txt  -57  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0331.txt  -56.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0332.txt  -56.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0333.txt  -56.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0334.txt  -56.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0335.txt  -56.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0336.txt  -56.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0337.txt  -56.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0338.txt  -56.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0339.txt  -56.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0340.txt  -56  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0341.txt  -55.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0342.txt  -55.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0343.txt  -55.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0344.txt  -55.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0345.txt  -55.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0346.txt  -55.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0347.txt  -55.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ413/01_102+q/DAQ0413_Scan0348.txt  -55.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0349.txt  -55.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0350.txt  -55.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0351.txt  -55  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0352.txt  -54.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0353.txt  -54.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0354.txt  -54.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0355.txt  -54.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0356.txt  -54.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0357.txt  -54.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0358.txt  -54.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0359.txt  -54.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0360.txt  -54.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0361.txt  -54  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0362.txt  -53.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0363.txt  -53.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0364.txt  -53.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0365.txt  -53.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0366.txt  -53.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0367.txt  -53.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0368.txt  -53.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0369.txt  -53.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0370.txt  -53.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/01_102+q/DAQ0414_Scan0371.txt  -53  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0372.txt  -52.25  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0373.txt  -52.15  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0374.txt  -52.05  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0375.txt  -51.95  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0376.txt  -51.85  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0377.txt  -51.75  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0378.txt  -51.65  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0379.txt  -51.55  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0380.txt  -51.45  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0381.txt  -51.35  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0382.txt  -51.25  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0383.txt  -51.15  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0384.txt  -51.05  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0385.txt  -50.95  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0386.txt  -50.85  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0387.txt  -50.75  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0388.txt  -50.65  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0389.txt  -50.55  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0390.txt  -50.45  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0391.txt  -50.35  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/02_102_nuc/DAQ0414_Scan0392.txt  -50.25  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0393.txt  -102  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0394.txt  -101.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0395.txt  -101.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0396.txt  -101.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0397.txt  -101.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0398.txt  -101.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0399.txt  -101.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0400.txt  -101.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0401.txt  -101.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0402.txt  -101.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0403.txt  -101  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0404.txt  -100.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0405.txt  -100.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0406.txt  -100.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0407.txt  -100.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0408.txt  -100.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0409.txt  -100.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0410.txt  -100.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0411.txt  -100.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0412.txt  -100.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0413.txt  -100  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0414.txt  -99.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0415.txt  -99.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0416.txt  -99.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0417.txt  -99.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0418.txt  -99.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0419.txt  -99.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0420.txt  -99.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0421.txt  -99.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0422.txt  -99.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0423.txt  -99  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0424.txt  -98.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0425.txt  -98.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0426.txt  -98.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0427.txt  -98.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0428.txt  -98.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0429.txt  -98.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0430.txt  -98.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0431.txt  -98.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0432.txt  -98.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0433.txt  -98  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0434.txt  -97.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0435.txt  -97.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0436.txt  -97.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0437.txt  -97.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0438.txt  -97.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0439.txt  -97.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0440.txt  -97.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0441.txt  -97.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0442.txt  -97.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0443.txt  -97  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0444.txt  -96.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0445.txt  -96.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0446.txt  -96.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0447.txt  -96.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ414/03_201+q/DAQ0414_Scan0448.txt  -96.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0451.txt  -85  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0452.txt  -84.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0453.txt  -84.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0454.txt  -84.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0455.txt  -84.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0456.txt  -84.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0457.txt  -84.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0458.txt  -84.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0459.txt  -84.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0460.txt  -84.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0461.txt  -84  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0462.txt  -83.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0463.txt  -83.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0464.txt  -83.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0465.txt  -83.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0466.txt  -83.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0467.txt  -83.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0468.txt  -83.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0469.txt  -83.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0470.txt  -83.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0471.txt  -83  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0472.txt  -82.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0473.txt  -82.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0474.txt  -82.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0475.txt  -82.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0476.txt  -82.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0477.txt  -82.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0478.txt  -82.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0479.txt  -82.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0480.txt  -82.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0481.txt  -82  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0482.txt  -81.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0483.txt  -81.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0484.txt  -81.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0485.txt  -81.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0486.txt  -81.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0487.txt  -81.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0488.txt  -81.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0489.txt  -81.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0490.txt  -81.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0491.txt  -81  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0492.txt  -80.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0493.txt  -80.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0494.txt  -80.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0495.txt  -80.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/01_201-q/DAQ0414_Scan0496.txt  -80.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0497.txt  -91.5  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0498.txt  -91.4  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0499.txt  -91.3  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0500.txt  -91.2  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0501.txt  -91.1  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0502.txt  -91  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0503.txt  -90.9  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0504.txt  -90.8  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0505.txt  -90.7  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0506.txt  -90.6  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0507.txt  -90.5  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0508.txt  -90.4  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0509.txt  -90.3  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0510.txt  -90.2  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0511.txt  -90.1  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0512.txt  -90  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0513.txt  -89.9  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0514.txt  -89.8  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0515.txt  -89.7  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0516.txt  -89.6  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0517.txt  -89.5  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0518.txt  -89.4  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0519.txt  -89.3  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0520.txt  -89.2  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0521.txt  -89.1  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0522.txt  -89  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0523.txt  -88.9  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0524.txt  -88.8  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0525.txt  -88.7  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0526.txt  -88.6  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ415/02_201_nuc/DAQ0414_Scan0527.txt  -88.5  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0528.txt  -21  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0529.txt  -20.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0530.txt  -20.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0531.txt  -20.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0532.txt  -20.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0533.txt  -20.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0534.txt  -20.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0535.txt  -20.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0536.txt  -20.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0537.txt  -20.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0538.txt  -20  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0539.txt  -19.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0540.txt  -19.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0541.txt  -19.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0542.txt  -19.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0543.txt  -19.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0544.txt  -19.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0545.txt  -19.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0546.txt  -19.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0547.txt  -19.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0548.txt  -19  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0549.txt  -18.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0550.txt  -18.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0551.txt  -18.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0552.txt  -18.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0553.txt  -18.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0554.txt  -18.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0555.txt  -18.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0556.txt  -18.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0557.txt  -18.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0558.txt  -18  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0559.txt  -17.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0560.txt  -17.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0561.txt  -17.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0562.txt  -17.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0563.txt  -17.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0564.txt  -17.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0565.txt  -17.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0566.txt  -17.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0567.txt  -17.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0568.txt  -17  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0569.txt  -16.9  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0570.txt  -16.8  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0571.txt  -16.7  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0572.txt  -16.6  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0573.txt  -16.5  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0574.txt  -16.4  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0575.txt  -16.3  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0576.txt  -16.2  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0577.txt  -16.1  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/01_003+q/DAQ0416_Scan0578.txt  -16  187
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0579.txt  -22  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0580.txt  -21.9  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0581.txt  -21.8  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0582.txt  -21.7  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0583.txt  -21.6  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0584.txt  -21.5  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0585.txt  -21.4  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0586.txt  -21.3  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0587.txt  -21.2  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0588.txt  -21.1  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0589.txt  -21  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0590.txt  -20.9  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0591.txt  -20.8  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0592.txt  -20.7  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0593.txt  -20.6  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0594.txt  -20.5  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0595.txt  -20.4  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0596.txt  -20.3  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0597.txt  -20.2  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0598.txt  -20.1  27
+/Users/nakajima/Library/CloudStorage/Dropbox/Neutron/202506_5G_IRT_Osawa/experiment/DAQ416/02_003_nuc/DAQ0416_Scan0599.txt  -20  27
