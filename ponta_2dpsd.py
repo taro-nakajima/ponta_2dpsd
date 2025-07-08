@@ -117,7 +117,7 @@ for line in FH1:
 
 
 FHR=open("SlicedData.txt","w")
-
+FHR.write("#Qx  Qy  Intensity  Error  dataNum\n")
 for i in range(int(mesh)):
     for j in range(int(mesh)):
         Qx=Qx_min+dQx*i
