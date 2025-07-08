@@ -6,7 +6,7 @@ cfg.read('config.ini', encoding='utf-8')
 
 DetInfo = cfg['Detector Info']
 SDD = float(DetInfo.get('SDD'))
-tth0 = float(DetInfo.get('tth0'))
+A2Center = float(DetInfo.get('A2Center'))
 pixelNumX = int(DetInfo.get('pixelNumX'))
 pixelNumY = int(DetInfo.get('pixelNumY'))
 pixelSizeX = float(DetInfo.get('pixelSizeX'))
@@ -15,7 +15,7 @@ x0 = float(DetInfo.get('centerPixelX'))
 y0 = float(DetInfo.get('centerPixelY'))
 
 print(f"SDD = {SDD}")
-print(f"tth0 = {tth0}")
+print(f"A2 center = {A2Center}")
 print(f"pixelNumX = {pixelNumX}")
 print(f"pixelNumY = {pixelNumY}")
 print(f"pixelSizeX = {pixelSizeX}")
@@ -53,8 +53,8 @@ k_len = 2.0*np.pi/wavelen
 kf_array=np.zeros((pixelNumX*pixelNumY,3))
 
 R = np.array( 
-    [[ np.cos(np.pi/180.0*(-tth0)),  -np.sin(np.pi/180.0*(-tth0)),  0 ],
-     [ np.sin(np.pi/180.0*(-tth0)),  np.cos(np.pi/180.0*(-tth0)),  0 ],
+    [[ np.cos(np.pi/180.0*(A2Center)),  -np.sin(np.pi/180.0*(A2Center)),  0 ],
+     [ np.sin(np.pi/180.0*(A2Center)),  np.cos(np.pi/180.0*(A2Center)),  0 ],
      [  0,   0, 1.0 ]])
 
 for i in range(pixelNumX):
