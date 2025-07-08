@@ -27,6 +27,11 @@ ExpInfo = cfg['Exp Info']
 wavelen = float(ExpInfo.get('wavelen'))
 print(f"wavelen = {wavelen}")
 
+
+SampleInfo = cfg['Sample Info']
+C2ofst = float(SampleInfo.get('C2ofst'))
+print(f"C2 offset = {C2ofst}")
+
 SliceInfo = cfg['Slice Info']
 Qx_max = float(SliceInfo.get('Qx_max'))
 Qx_min = float(SliceInfo.get('Qx_min'))
@@ -35,6 +40,7 @@ Qy_min = float(SliceInfo.get('Qy_min'))
 Qz_max = float(SliceInfo.get('Qz_max'))
 Qz_min = float(SliceInfo.get('Qz_min'))
 mesh = float(SliceInfo.get('mesh'))
+zeroIntFilling = SliceInfo.get('zeroIntFilling')
 
 print(f"Qx_max = {Qx_max}")
 print(f"Qx_min = {Qx_min}")
@@ -76,6 +82,7 @@ ki = np.array([k_len,0,0])
 Q0=ki-kf_array
 
 Intensity=np.zeros((int(mesh),int(mesh)))
+SqError=np.zeros((int(mesh),int(mesh)))
 dataNum=np.zeros((int(mesh),int(mesh)))
 
 
@@ -83,7 +90,8 @@ FH1=open("datalist.txt","r")
 for line in FH1:
     temp=line.split()
     intMapFile=temp[0]
-    C2=float(temp[1])
+    C2=float(temp[1])+C2ofst
+    countTime=float(temp[2])
     C2rot = np.array( 
         [[ np.cos(np.pi/180.0*(-C2)),  -np.sin(np.pi/180.0*(-C2)),  0 ],
         [ np.sin(np.pi/180.0*(-C2)),  np.cos(np.pi/180.0*(-C2)),  0 ],
@@ -103,7 +111,8 @@ for line in FH1:
                 if (Qx_min <= Qx <=Qx_max) and (Qy_min <= Qy <=Qy_max) and (Qz_min <= Qz <=Qz_max):
                     i_Qx = int(((Qx-Qx_min)/dQx))
                     j_Qy = int(((Qy-Qy_min)/dQy))
-                    Intensity[i_Qx][j_Qy]+=float(values[2])
+                    Intensity[i_Qx][j_Qy]+=float(values[2])/countTime
+                    SqError[i_Qx][j_Qy]+=float(values[2])/countTime**2.0
                     dataNum[i_Qx][j_Qy]+=1
 
 
@@ -114,9 +123,9 @@ for i in range(int(mesh)):
         Qx=Qx_min+dQx*i
         Qy=Qy_min+dQy*j
         if Intensity[i][j] > 0:
-            FHR.write("{0}  {1}  {2}  {3}\n".format(Qx,Qy,Intensity[i][j],dataNum[i][j]))
+            FHR.write("{0}  {1}  {2}  {3}  {4}\n".format(Qx,Qy,Intensity[i][j],np.sqrt(SqError[i][j]),dataNum[i][j]))
         else:
-            FHR.write("{0}  {1}  {2}  {3}\n".format(Qx,Qy,-1000,dataNum[i][j]))
+            FHR.write("{0}  {1}  {2}  {3}  {4}\n".format(Qx,Qy,zeroIntFilling,0,dataNum[i][j]))
 
     FHR.write("\n")
 
