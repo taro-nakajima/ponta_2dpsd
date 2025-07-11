@@ -10,13 +10,17 @@ if (len(args)<2):
 cfg = configparser.ConfigParser()
 cfg.read(args[1], encoding='utf-8')
 
-print(f"========== Detector info ===========")
+print(f"========== I/O files ===========")
 IOfiles = cfg['IO Files']
 datalist_file = IOfiles.get('datalist')
 output_file = IOfiles.get('outfile')
+print(f"datalist file = {datalist_file}")
+print(f"output file = {output_file}")
+print("")
 
 print(f"========== Detector info ===========")
 DetInfo = cfg['Detector Info']
+sensitivity_file = (DetInfo.get('sensFile'))
 SDD = float(DetInfo.get('SDD'))
 A2Center = float(DetInfo.get('A2Center'))
 pixelNumX = int(DetInfo.get('pixelNumX'))
@@ -26,6 +30,7 @@ pixelSizeY = float(DetInfo.get('pixelSizeY'))
 x0 = float(DetInfo.get('centerPixelX'))
 y0 = float(DetInfo.get('centerPixelY'))
 alpha = float(DetInfo.get('alpha'))
+print(f"Sensitivity file = {sensitivity_file}")
 print(f"SDD = {SDD}")
 print(f"A2 center = {A2Center}")
 print(f"pixelNumX = {pixelNumX}")
@@ -41,10 +46,13 @@ print(f"========== Experiment info ===========")
 ExpInfo = cfg['Exp Info']
 Ei = float(ExpInfo.get('Ei'))
 k_len = np.sqrt(Ei/2.072)
+BG_file = (ExpInfo.get('BGfile'))
+countTimeBG = float(ExpInfo.get('countTimeBG'))
 print(f"Ei = {Ei} meV (k={k_len} A-1)")
+print(f"Background file = {BG_file}")
 print("")
 
-print(f"========== Experiment info ===========")
+print(f"========== Sample info ===========")
 SampleInfo = cfg['Sample Info']
 C2ofst = float(SampleInfo.get('C2ofst'))
 print(f"C2 offset = {C2ofst}")
@@ -72,10 +80,12 @@ print(f"Qz_max = {Qz_max}")
 print(f"Qz_min = {Qz_min}")
 print(f"Slice plane = {axis1}-{axis2}, ({mesh1} x {mesh2})")
 print(f"Zero intensity filling = {zeroIntFilling}")
+print("")
+
+# preparation for data slicing ===========
 
 dQ1=0.0
 dQ2=0.0
-
 
 if (axis1=="x"):
     dQ1=(Qx_max-Qx_min)/mesh1
@@ -91,8 +101,33 @@ elif (axis2=="y"):
 elif (axis2=="z"):
     dQ2=(Qz_max-Qz_min)/mesh2
 
+# reading sensitivity and BG files
 
-## step 0: preparing a matrix with the size of (pixelNumX*pixelNumY,3)
+pixel_sensitivity=np.zeros((pixelNumX*pixelNumY))
+pixel_BG=np.zeros((pixelNumX*pixelNumY))
+
+FHsens=open(sensitivity_file,"r")
+for line in FHsens:
+    if "#" not in line:
+        values = line.split()
+        if len(values) == 3:
+            Xtemp=int(float(values[0]))
+            Ytemp=int(float(values[1]))
+            pixel_sensitivity[Xtemp*pixelNumX+Ytemp]=float(values[2])
+FHsens.close()
+
+FHBG=open(BG_file,"r")
+for line in FHBG:
+    if "#" not in line:
+        values = line.split()
+        if len(values) == 3:
+            Xtemp=int(float(values[0]))
+            Ytemp=int(float(values[1]))
+            pixel_BG[Xtemp*pixelNumX+Ytemp]=float(values[2])
+FHBG.close()
+
+
+# step 0: preparing a matrix with the size of (pixelNumX*pixelNumY,3)
 
 pixel_positions=np.zeros((pixelNumX*pixelNumY,3))
 
@@ -137,14 +172,14 @@ kf_array=np.zeros((pixelNumX*pixelNumY,3))
 for p in range(len(pixel_positions)):
     kf_array[p]=pixel_positions[p]/np.linalg.norm(pixel_positions[p])*k_len
 
+# step 6: calculate Q0 (Q-vectors at C2=0) by Q=ki-kf
+
 ki = np.array([k_len,0,0])
 
 Q0=ki-kf_array
 
-FHt=open("test.txt","w")
-for p in range(len(Q0)):
-    FHt.write(f"{Q0[p][0]} {Q0[p][1]} {Q0[p][2]}\n")
-FHt.close()
+
+# step 7: reading observed intensities and map them on the specified plane in the Q space.
 
 Intensity=np.zeros((int(mesh1),int(mesh2)))
 SqError=np.zeros((int(mesh1),int(mesh2)))
@@ -189,10 +224,11 @@ for line in FH1:
                     elif (axis2=="z"):
                         j = int(((Qz-Qz_min)/dQ2))
 
-                    Intensity[i][j]+=float(values[2])/countTime
-                    SqError[i][j]+=float(values[2])/countTime**2.0
+                    Intensity[i][j]+=(float(values[2])/countTime -pixel_BG[Xtemp*pixelNumX+Ytemp]/countTimeBG)/pixel_sensitivity[Xtemp*pixelNumX+Ytemp]
+                    SqError[i][j]+=float(values[2])/countTime**2.0/pixel_sensitivity[Xtemp*pixelNumX+Ytemp]**2.0
                     dataNum[i][j]+=1
 
+# step 8: writing sliced data in the output file.
 
 FHR=open(output_file,"w")
 FHR.write(f"#Q{axis1}  Q{axis2}  Intensity  Error  dataNum\n")
