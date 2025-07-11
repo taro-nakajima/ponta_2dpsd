@@ -94,7 +94,7 @@ elif (axis2=="z"):
 
 ## step 0: preparing a matrix with the size of (pixelNumX*pixelNumY,3)
 
-kf_array=np.zeros((pixelNumX*pixelNumY,3))
+pixel_positions=np.zeros((pixelNumX*pixelNumY,3))
 
 # step 1: define pixel positions on the yz plane.
 
@@ -102,11 +102,9 @@ for i in range(pixelNumX):
     for j in range(pixelNumY):
         zpos_temp = (float(i)-x0)*pixelSizeX   # Xpixel of the detector -> Z direction
         ypos_temp = (float(j)-y0)*pixelSizeY   # Ypixel of the detector -> Y direction
-        pos_vec = np.array([0.0,ypos_temp,zpos_temp])
-        pos_vec_norm = pos_vec/np.linalg.norm(pos_vec)
-        kf_array[i*pixelNumX+j][0]= pos_vec_norm[0]*k_len       # kf_array[0]=(Xpic=0,Ypic=0), kf_array[1]=(Xpic=0,Ypic=1), kf_array[2]=(Xpic=0,Ypic=2).....
-        kf_array[i*pixelNumX+j][1]= pos_vec_norm[1]*k_len
-        kf_array[i*pixelNumX+j][2]= pos_vec_norm[2]*k_len
+        pixel_positions[i*pixelNumX+j][0]= 0.0       # kf_array[0]=(Xpic=0,Ypic=0), kf_array[1]=(Xpic=0,Ypic=1), kf_array[2]=(Xpic=0,Ypic=2).....
+        pixel_positions[i*pixelNumX+j][1]= ypos_temp
+        pixel_positions[i*pixelNumX+j][2]= zpos_temp
 
 # step 2: z-rotation by alpha
 
@@ -115,13 +113,13 @@ Rot_alpha = np.array(
      [ np.sin(np.pi/180.0*(alpha)),  np.cos(np.pi/180.0*(alpha)),  0 ],
      [  0,   0, 1.0 ]])
 
-kf_array = kf_array @ Rot_alpha.T
+pixel_positions = pixel_positions @ Rot_alpha.T
 
 # step 3: x-translation by SDD
 
 trans_x = np.array([SDD,0,0])
 
-kf_array = kf_array + trans_x
+pixel_positions = pixel_positions + trans_x
 
 # step 4: z-rotation by A2Center
 
@@ -130,13 +128,23 @@ Rot_A2 = np.array(
      [ np.sin(np.pi/180.0*(A2Center)),  np.cos(np.pi/180.0*(A2Center)),  0 ],
      [  0,   0, 1.0 ]])
 
-kf_array = kf_array @ Rot_A2.T
+pixel_positions = pixel_positions @ Rot_A2.T
 
-# step 5: calculate Q0 vectors (Q-vectors at C2=0) by Q=ki-kf
+# step 5: calculate kf vectors from the vectors pointing the pixel positions
+
+kf_array=np.zeros((pixelNumX*pixelNumY,3))
+
+for p in range(len(pixel_positions)):
+    kf_array[p]=pixel_positions[p]/np.linalg.norm(pixel_positions[p])*k_len
 
 ki = np.array([k_len,0,0])
 
 Q0=ki-kf_array
+
+FHt=open("test.txt","w")
+for p in range(len(Q0)):
+    FHt.write(f"{Q0[p][0]} {Q0[p][1]} {Q0[p][2]}\n")
+FHt.close()
 
 Intensity=np.zeros((int(mesh1),int(mesh2)))
 SqError=np.zeros((int(mesh1),int(mesh2)))
