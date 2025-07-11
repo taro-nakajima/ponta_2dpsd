@@ -59,9 +59,9 @@ Qy_max = float(SliceInfo.get('Qy_max'))
 Qy_min = float(SliceInfo.get('Qy_min'))
 Qz_max = float(SliceInfo.get('Qz_max'))
 Qz_min = float(SliceInfo.get('Qz_min'))
-axis1 = float(SliceInfo.get('Axis1'))
+axis1 = (SliceInfo.get('Axis1'))
 mesh1 = float(SliceInfo.get('Mesh1'))
-axis2 = float(SliceInfo.get('Axis2'))
+axis2 = (SliceInfo.get('Axis2'))
 mesh2 = float(SliceInfo.get('Mesh2'))
 zeroIntFilling = SliceInfo.get('zeroIntFilling')
 print(f"Qx_max = {Qx_max}")
@@ -184,8 +184,8 @@ for line in FH1:
 
 FHR=open(output_file,"w")
 FHR.write(f"#Q{axis1}  Q{axis2}  Intensity  Error  dataNum\n")
-for i in range(int(mesh)):
-    for j in range(int(mesh)):
+for i in range(int(mesh1)):
+    for j in range(int(mesh2)):
         Qx=Qx_min+dQx*i
         Qy=Qy_min+dQy*j
         if Intensity[i][j] > 0:
