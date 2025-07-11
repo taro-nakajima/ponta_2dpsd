@@ -73,6 +73,10 @@ print(f"Qz_min = {Qz_min}")
 print(f"Slice plane = {axis1}-{axis2}, ({mesh1} x {mesh2})")
 print(f"Zero intensity filling = {zeroIntFilling}")
 
+dQ1=0.0
+dQ2=0.0
+
+
 if (axis1=="x"):
     dQ1=(Qx_max-Qx_min)/mesh1
 elif (axis1=="y"):
@@ -82,9 +86,9 @@ elif (axis1=="z"):
 
 if (axis2=="x"):
     dQ2=(Qx_max-Qx_min)/mesh2
-elif (axis1=="y"):
+elif (axis2=="y"):
     dQ2=(Qy_max-Qy_min)/mesh2
-elif (axis1=="z"):
+elif (axis2=="z"):
     dQ2=(Qz_max-Qz_min)/mesh2
 
 
@@ -186,12 +190,26 @@ FHR=open(output_file,"w")
 FHR.write(f"#Q{axis1}  Q{axis2}  Intensity  Error  dataNum\n")
 for i in range(int(mesh1)):
     for j in range(int(mesh2)):
-        Qx=Qx_min+dQx*i
-        Qy=Qy_min+dQy*j
+        Q1=0.0
+        Q2=0.0
+        if (axis1 == "x"):
+            Q1=Qx_min+dQ1*float(i)
+        elif (axis1 == "y"):
+            Q1=Qy_min+dQ1*float(i)
+        elif (axis1 == "z"):
+            Q1=Qz_min+dQ1*float(i)
+
+        if (axis2 == "x"):
+            Q2=Qx_min+dQ2*float(j)
+        elif (axis2 == "y"):
+            Q2=Qy_min+dQ2*float(j)
+        elif (axis2 == "z"):
+            Q2=Qz_min+dQ2*float(j)
+
         if Intensity[i][j] > 0:
-            FHR.write("{0}  {1}  {2}  {3}  {4}\n".format(Qx,Qy,Intensity[i][j],np.sqrt(SqError[i][j]),dataNum[i][j]))
+            FHR.write("{0}  {1}  {2}  {3}  {4}\n".format(Q1,Q2,Intensity[i][j],np.sqrt(SqError[i][j]),dataNum[i][j]))
         else:
-            FHR.write("{0}  {1}  {2}  {3}  {4}\n".format(Qx,Qy,zeroIntFilling,0,dataNum[i][j]))
+            FHR.write("{0}  {1}  {2}  {3}  {4}\n".format(Q1,Q2,zeroIntFilling,0,dataNum[i][j]))
 
     FHR.write("\n")
 
